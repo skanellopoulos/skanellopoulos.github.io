@@ -221,3 +221,24 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .84r
   .sidebar-section:last-child { grid-column: auto; }
   .content-grid { padding-bottom: 34px; }
 }
+
+
+.interest-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.62rem;
+}
+
+.interest-list li {
+  padding-bottom: 0.62rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+.interest-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
