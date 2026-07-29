@@ -2,12 +2,11 @@
 
 Upload the contents of this folder directly to the root of your GitHub Pages repository.
 
-Required root structure:
+Required root files:
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- `assets/profile.jpg`
-- `assets/cv_Sotiris.pdf`
+- `assets/`
 
-The included CV is the latest file supplied for this build.
+The CV download points to `assets/cv_Sotiris.pdf`.
