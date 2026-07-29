@@ -1,31 +1,13 @@
-# Sotiris Kanellopoulos — Academic Webpage
+# Sotiris Kanellopoulos — Academic Homepage
 
-## Publish with GitHub Pages
+Upload the contents of this folder directly to the root of your GitHub Pages repository.
 
-Upload the **contents of this folder** directly to the root of your GitHub repository. Your repository should contain:
+Required root structure:
 
-```
-index.html
-styles.css
-script.js
-README.md
-assets/
-  profile.jpg
-  cv_Sotiris.pdf
-```
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/profile.jpg`
+- `assets/cv_Sotiris.pdf`
 
-Then open **Settings → Pages** and choose:
-
-- Source: **Deploy from a branch**
-- Branch: **main**
-- Folder: **/(root)**
-
-The website contains no phone number. The PDF is included only for the Download CV buttons.
-
-## Editing links
-
-Open `index.html` in any text editor. Search for `mailto:`, `arxiv.org`, or conference links to update them.
-
-
-## Current version
-This version lists both NTUA and the Archimedes Research Unit as affiliations, omits the Awards and Languages & Programming sections, and uses the latest supplied CV PDF.
+The included CV is the latest file supplied for this build.
