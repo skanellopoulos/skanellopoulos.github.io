@@ -1,14 +1,27 @@
-# Personal GitHub Page
+# Sotiris Kanellopoulos — Academic Webpage
 
-Upload all files and the `assets` folder to the root of your `USERNAME.github.io` repository.
+## Publish with GitHub Pages
 
-Your repository should contain:
+Upload the **contents of this folder** directly to the root of your GitHub repository. Your repository should contain:
 
-- `index.html`
-- `styles.css`
-- `assets/profile.jpg`
-- `assets/cv_Sotiris.pdf`
+```
+index.html
+styles.css
+script.js
+README.md
+assets/
+  profile.jpg
+  cv_Sotiris.pdf
+```
 
-Then open **Settings → Pages** and choose **Deploy from a branch**, branch **main**, folder **/(root)**.
+Then open **Settings → Pages** and choose:
 
-The site is responsive: it closely follows the CV on desktop and rearranges cleanly on phones.
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/(root)**
+
+The website contains no phone number. The PDF is included only for the Download CV buttons.
+
+## Editing links
+
+Open `index.html` in any text editor. Search for `mailto:`, `arxiv.org`, or conference links to update them.
