@@ -41,7 +41,7 @@ nav a:hover, nav a:focus { color: var(--navy); border-bottom-color: var(--blue);
 
 .profile-header {
   display: grid;
-  grid-template-columns: minmax(0,1fr) 128px;
+  grid-template-columns: minmax(0,1fr) 138px;
   align-items: center;
   gap: 54px;
   padding: 28px 0 24px;
@@ -55,7 +55,7 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
 .profile-links a { text-decoration: none; font-weight: 600; }
 .cv-button { margin-left: 10px; background: var(--navy); color: white !important; padding: 9px 15px; border-radius: 6px; box-shadow: 0 2px 6px rgba(10,63,145,.18); }
 .portrait { margin: 0; justify-self: end; }
-.portrait img { width: 128px; height: 154px; object-fit: cover; object-position: center top; display: block; border-radius: 7px; }
+.portrait img { width: 138px; height: 166px; object-fit: cover; object-position: center top; display: block; border-radius: 7px; }
 
 .research-intro {
   display: grid;
@@ -96,7 +96,7 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
   letter-spacing: -.025em;
 }
 .research-lead { margin: 0 0 14px; max-width: 900px; color: #344054; }
-.research-subheading { margin: 0 0 8px; font-weight: 700; color: #1f2d44; }
+.research-subheading { margin: 0 0 8px; font-weight: 400; color: #1f2d44; }
 .research-topics {
   margin: 0;
   padding: 0;
@@ -138,7 +138,7 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
   flex-direction: column;
   justify-content: center;
 }
-.interest-card h2 { margin: 0 0 10px; color: white; font-size: 1.05rem; }
+.interest-card h2 { margin: 0 0 12px; color: white; font-size: 1.22rem; letter-spacing: -.015em; }
 .interest-card p { margin: 0; color: rgba(255,255,255,.9); line-height: 1.65; }
 
 .content-grid { display: grid; grid-template-columns: minmax(0,1.85fr) minmax(340px,.95fr); gap: 76px; align-items: start; padding-bottom: 54px; }
@@ -177,6 +177,7 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
 a.badge:hover, a.badge:focus { transform: translateY(-1px); filter: brightness(.97); box-shadow: 0 4px 9px rgba(17,24,39,.16); }
 span.badge { cursor: default; }
 .note { color: var(--muted); font-size: .82rem; font-style: italic; }
+.note-highlight { color: #1f4f85; font-size: .9rem; font-style: normal; font-weight: 700; background: #eef5ff; border: 1px solid #cfe0f6; border-radius: 999px; padding: 4px 10px; }
 
 .side-column { min-width: 0; }
 .sidebar-section { margin-bottom: 26px; }
