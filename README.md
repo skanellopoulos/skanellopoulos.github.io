@@ -1,12 +1,3 @@
-# Sotiris Kanellopoulos — Academic Homepage
+# Sotiris Kanellopoulos academic homepage
 
-Upload the contents of this folder directly to the root of your GitHub Pages repository.
-
-Required root files:
-
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/`
-
-The CV download points to `assets/cv_Sotiris.pdf`.
+Upload `index.html`, `styles.css`, `script.js`, and the `assets` folder directly to the root of your GitHub Pages repository.

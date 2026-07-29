@@ -3,22 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Academic homepage of Sotiris Kanellopoulos, Theoretical Computer Science PhD student at the National Technical University of Athens and the Archimedes Research Unit.">
+  <meta name="description" content="Academic homepage of Sotiris Kanellopoulos, Theoretical Computer Science PhD student at the National Technical University of Athens and Archimedes Research Unit.">
   <title>Sotiris Kanellopoulos — Theoretical Computer Science</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="wordmark" href="#top">Sotiris Kanellopoulos</a>
+    <div class="nav-wrap">
       <button class="menu-button" aria-expanded="false" aria-controls="navigation">Menu</button>
       <nav id="navigation" aria-label="Primary navigation">
-        <a href="#research">Research</a>
+        <a href="#top">Home</a>
         <a href="#publications">Publications</a>
         <a href="#education">Education</a>
         <a href="#visits">Research Visits</a>
@@ -27,19 +26,25 @@
     </div>
   </header>
 
-  <main id="main">
-    <section id="top" class="hero container">
-      <div class="hero-text">
+  <main id="main" class="page-shell">
+    <section id="top" class="profile-header">
+      <div class="profile-main">
         <h1>Sotiris Kanellopoulos</h1>
         <p class="position">Theoretical Computer Science PhD Student</p>
-        <p class="affiliations">
-          National Technical University of Athens<br>
-          Archimedes Research Unit
-        </p>
+
+        <div class="affiliation-row" aria-label="Affiliations">
+          <span>National Technical University of Athens</span>
+          <span class="divider" aria-hidden="true"></span>
+          <span>Archimedes Research Unit</span>
+        </div>
+
         <div class="profile-links" aria-label="Profile links">
           <a href="mailto:sotkanel99@gmail.com">Email</a>
+          <span class="link-divider" aria-hidden="true"></span>
           <a href="https://scholar.google.com/citations?user=l8Dv_PEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <span class="link-divider" aria-hidden="true"></span>
           <a href="https://dblp.org/pid/349/8067.html" target="_blank" rel="noopener">DBLP ↗</a>
+          <span class="link-divider" aria-hidden="true"></span>
           <a class="cv-button" href="assets/cv_Sotiris.pdf" download>Download CV</a>
         </div>
       </div>
@@ -48,11 +53,10 @@
       </figure>
     </section>
 
-    <section id="research" class="section container research-grid">
-      <div class="research-summary">
-        <h2>Research</h2>
+    <section class="research-intro">
+      <div class="research-copy">
         <p>I am a last-year PhD student in Theoretical Computer Science advised by Aris Pagourtzis, with a focus on Algorithms, Complexity and Scheduling. During my PhD I have worked on</p>
-        <ul class="topic-list">
+        <ul>
           <li>Perpetual Scheduling problems</li>
           <li>Fair Division of Indivisible Goods</li>
           <li>Approximation Schemes for Subset Sum problems</li>
@@ -60,141 +64,122 @@
           <li>Descriptive and Counting Complexity</li>
         </ul>
       </div>
-      <aside class="interests" aria-labelledby="interests-title">
-        <h3 id="interests-title">Research Interests</h3>
+      <aside class="interest-card">
+        <h2>Research Interests</h2>
         <p>Computational Complexity, Algorithmic Game Theory, Algorithmic Graph Theory, Approximation Algorithms, Scheduling Theory</p>
       </aside>
     </section>
 
-    <section id="publications" class="section container split">
-      <div class="section-label">Publications</div>
-      <div class="section-content publication-list">
-        <article class="publication">
-          <h3>Temporal Path Covers: Dilworth Properties and Parameterized Complexity</h3>
-          <p class="authors">L. Cioni, E. Nemery, A. Pagourtzis, C. Pergaminelis, M. Vasilakis, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-preprint" href="https://arxiv.org/abs/2607.00118" target="_blank" rel="noopener">arXiv ↗</a>
-            <span class="badge badge-venue" title="International Symposium on Algorithms and Computation">ISAAC 2026</span>
-          </div>
-        </article>
+    <div class="content-grid">
+      <section id="publications" class="main-column">
+        <h2 class="section-heading">Publications</h2>
+        <ol class="publication-list">
+          <li>
+            <article class="publication">
+              <h3>Temporal Path Covers: Dilworth Properties and Parameterized Complexity</h3>
+              <p class="authors">L. Cioni, E. Nemery, A. Pagourtzis, C. Pergaminelis, M. Vasilakis, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges">
+                <a class="badge badge-preprint" href="https://arxiv.org/abs/2607.00118" target="_blank" rel="noopener">arXiv</a>
+                <span class="badge badge-venue">ISAAC 2026</span>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>EF(X) Orientations: A Parameterized Complexity Perspective</h3>
+              <p class="authors">E. Nemery, C. Pergaminelis, M. M. Sotiriou, M. Vasilakis, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges">
+                <a class="badge badge-preprint" href="https://arxiv.org/abs/2512.25033" target="_blank" rel="noopener">arXiv</a>
+                <span class="badge badge-venue">WINE 2026</span>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>Hardness, Tractability and Density Thresholds of Finite Pinwheel Scheduling Variants</h3>
+              <p class="authors">G. Mitropoulos, C. Pergaminelis, T. Tolias, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges"><a class="badge badge-venue" href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2026.122" target="_blank" rel="noopener">ICALP 2026</a></div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>Beer Path Problems in Temporal Graphs</h3>
+              <p class="authors">A. D'Ascenzo, G. F. Italiano, A. Mpanti, A. Pagourtzis, C. Pergaminelis, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges"><a class="badge badge-venue" href="https://link.springer.com/chapter/10.1007/978-3-032-27732-9_16" target="_blank" rel="noopener">IWOCA 2026</a><span class="note">Selected for a JCSS special issue</span></div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>Finite Pinwheel Scheduling: the k-Visits Problem</h3>
+              <p class="authors">C. Pergaminelis, M. Kokkou, E. Markou, A. Pagourtzis, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges"><a class="badge badge-venue" href="https://epubs.siam.org/doi/10.1137/1.9781611978971.16" target="_blank" rel="noopener">SODA 2026</a></div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>Approximation Schemes for k-Subset Sum Ratio and k-Way Number Partitioning Ratio</h3>
+              <p class="authors">G. Mitropoulos, A. Antonopoulos, N. Leonardos, A. Pagourtzis, C. Pergaminelis, S. Petsalakis, K. Tsitouras, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges"><a class="badge badge-venue" href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2025.44" target="_blank" rel="noopener">ISAAC 2025</a></div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>The Computational Complexity of Finding Second-Order Stationary Points</h3>
+              <p class="authors">A. Kontogiannis, V. Pollatos, P. Mertikopoulos, A. Pagourtzis, I. Panageas, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges"><a class="badge badge-venue" href="https://dl.acm.org/doi/10.5555/3692070.3693079" target="_blank" rel="noopener">ICML 2024</a></div>
+            </article>
+          </li>
+          <li>
+            <article class="publication">
+              <h3>On the Power of Counting the Total Number of Computation Paths of NPTMs</h3>
+              <p class="authors">E. Bakali, A. Chalki, A. Pagourtzis, S. Zachos, and <strong>S. Kanellopoulos</strong></p>
+              <div class="badges"><a class="badge badge-venue" href="https://link.springer.com/chapter/10.1007/978-981-97-2340-9_18" target="_blank" rel="noopener">TAMC 2024</a></div>
+            </article>
+          </li>
+        </ol>
+      </section>
 
-        <article class="publication">
-          <h3>EF(X) Orientations: A Parameterized Complexity Perspective</h3>
-          <p class="authors">E. Nemery, C. Pergaminelis, M. M. Sotiriou, M. Vasilakis, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-preprint" href="https://arxiv.org/abs/2512.25033" target="_blank" rel="noopener">arXiv ↗</a>
-            <span class="badge badge-venue" title="Workshop on Internet and Network Economics">WINE 2026</span>
-          </div>
-        </article>
-
-        <article class="publication">
-          <h3>Hardness, Tractability and Density Thresholds of Finite Pinwheel Scheduling Variants</h3>
-          <p class="authors">G. Mitropoulos, C. Pergaminelis, T. Tolias, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-venue" href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2026.122" target="_blank" rel="noopener" title="International Colloquium on Automata, Languages, and Programming">ICALP 2026 ↗</a>
-          </div>
-        </article>
-
-        <article class="publication">
-          <h3>Beer Path Problems in Temporal Graphs</h3>
-          <p class="authors">A. D'Ascenzo, G. F. Italiano, A. Mpanti, A. Pagourtzis, C. Pergaminelis, and S. Kanellopoulos.</p>
-          <p class="venue-note">Selected for a JCSS special issue.</p>
-          <div class="badges">
-            <a class="badge badge-venue" href="https://link.springer.com/chapter/10.1007/978-3-032-27732-9_16" target="_blank" rel="noopener" title="International Workshop on Combinatorial Algorithms">IWOCA 2026 ↗</a>
-          </div>
-        </article>
-
-        <article class="publication">
-          <h3>Finite Pinwheel Scheduling: the k-Visits Problem</h3>
-          <p class="authors">C. Pergaminelis, M. Kokkou, E. Markou, A. Pagourtzis, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-venue" href="https://epubs.siam.org/doi/10.1137/1.9781611978971.16" target="_blank" rel="noopener" title="ACM-SIAM Symposium on Discrete Algorithms">SODA 2026 ↗</a>
-          </div>
-        </article>
-
-        <article class="publication">
-          <h3>Approximation Schemes for k-Subset Sum Ratio and k-Way Number Partitioning Ratio</h3>
-          <p class="authors">G. Mitropoulos, A. Antonopoulos, N. Leonardos, A. Pagourtzis, C. Pergaminelis, S. Petsalakis, K. Tsitouras, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-venue" href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2025.44" target="_blank" rel="noopener" title="International Symposium on Algorithms and Computation">ISAAC 2025 ↗</a>
-          </div>
-        </article>
-
-        <article class="publication">
-          <h3>The Computational Complexity of Finding Second-Order Stationary Points</h3>
-          <p class="authors">A. Kontogiannis, V. Pollatos, P. Mertikopoulos, A. Pagourtzis, I. Panageas, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-venue" href="https://dl.acm.org/doi/10.5555/3692070.3693079" target="_blank" rel="noopener" title="International Conference on Machine Learning">ICML 2024 ↗</a>
-          </div>
-        </article>
-
-        <article class="publication">
-          <h3>On the Power of Counting the Total Number of Computation Paths of NPTMs</h3>
-          <p class="authors">E. Bakali, A. Chalki, A. Pagourtzis, S. Zachos, and S. Kanellopoulos.</p>
-          <div class="badges">
-            <a class="badge badge-venue" href="https://link.springer.com/chapter/10.1007/978-981-97-2340-9_18" target="_blank" rel="noopener" title="Theory and Applications of Models of Computation">TAMC 2024 ↗</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="education" class="section container split">
-      <div class="section-label">Education</div>
-      <div class="section-content entries">
-        <article class="entry">
-          <div class="entry-date">2022–present</div>
-          <div>
-            <h3>PhD in Theoretical Computer Science</h3>
-            <p>National Technical University of Athens, School of Electrical and Computer Engineering</p>
+      <aside class="side-column">
+        <section id="education" class="sidebar-section">
+          <h2 class="section-heading">Education</h2>
+          <article class="compact-entry">
+            <span class="date">2022–present</span>
+            <h3>PhD Student in Theoretical Computer Science</h3>
+            <p>National Technical University of Athens</p>
             <p>Advisor: Aris Pagourtzis</p>
-          </div>
-        </article>
-        <article class="entry">
-          <div class="entry-date">2017–2022</div>
-          <div>
+          </article>
+          <article class="compact-entry">
+            <span class="date">2017–2022</span>
             <h3>Diploma in Electrical and Computer Engineering</h3>
             <p>National Technical University of Athens</p>
-          </div>
-        </article>
-      </div>
-    </section>
+          </article>
+        </section>
 
-    <section id="visits" class="section container split">
-      <div class="section-label">Research Visits</div>
-      <div class="section-content entries">
-        <article class="entry">
-          <div class="entry-date">Oct 2026</div>
-          <div>
-            <h3>Schloss Dagstuhl</h3>
-            <p>Invited participant at the Dagstuhl Seminar <a href="https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/26412" target="_blank" rel="noopener"><em>Recent Trends in Perpetual Scheduling</em> ↗</a>.</p>
+        <section id="visits" class="sidebar-section">
+          <h2 class="section-heading">Research Visits</h2>
+          <div class="timeline">
+            <article><span class="date">Oct 2026</span><div><p>Invited participant at the Dagstuhl Seminar <a href="https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/26412" target="_blank" rel="noopener"><em>Recent Trends in Perpetual Scheduling</em> ↗</a></p></div></article>
+            <article><span class="date">Sep 2026</span><div><p>Visitor at Princeton University</p></div></article>
+            <article><span class="date">Jun 2026</span><div><p>Visitor at Paris Dauphine University – PSL</p><p class="muted">Collaboration with Laurent Gourvès, Michael Lampis, Edouard Nemery and Manolis Vasilakis</p></div></article>
+            <article><span class="date">Mar 2026</span><div><p>Visitor at University of Liverpool</p><p class="muted">Collaboration with Leszek Gąsieniec, Karteek Sreenivasaiah and Prudence Wong</p></div></article>
+            <article><span class="date">Apr 2025</span><div><p>Visitor at LUISS University, Rome</p><p class="muted">Collaboration with Giuseppe F. Italiano, Andrea D'Ascenzo and Anna Mpanti</p></div></article>
           </div>
-        </article>
-        <article class="entry"><div class="entry-date">Sep 2026</div><div><h3>Princeton University</h3><p>Research visitor.</p></div></article>
-        <article class="entry"><div class="entry-date">Jun 2026</div><div><h3>Paris Dauphine University – PSL</h3><p>Collaboration on temporal path cover problems with Laurent Gourvès, Michael Lampis, Edouard Nemery, and Manolis Vasilakis.</p></div></article>
-        <article class="entry"><div class="entry-date">Mar 2026</div><div><h3>University of Liverpool</h3><p>Collaboration on perpetual scheduling problems with Leszek Gąsieniec, Karteek Sreenivasaiah, and Prudence Wong.</p></div></article>
-        <article class="entry"><div class="entry-date">Apr 2025</div><div><h3>LUISS University, Rome</h3><p>Collaboration on temporal path and reachability problems with Giuseppe F. Italiano, Andrea D'Ascenzo, and Anna Mpanti.</p></div></article>
-      </div>
-    </section>
+        </section>
 
-    <section id="teaching" class="section container split">
-      <div class="section-label">Teaching</div>
-      <div class="section-content">
-        <p class="institution">National Technical University of Athens</p>
-        <div class="entries teaching-entries">
-          <article class="entry"><div class="entry-date">2025–2026</div><div><h3>Foundations of Computer Science</h3><p>Teaching Assistant</p></div></article>
-          <article class="entry"><div class="entry-date">2023–2025</div><div><h3>Programming Techniques</h3><p>Lab Assistant</p></div></article>
-          <article class="entry"><div class="entry-date">2019–2023</div><div><h3>Computer Programming</h3><p>Lab Assistant</p></div></article>
-        </div>
-      </div>
-    </section>
+        <section id="teaching" class="sidebar-section">
+          <h2 class="section-heading">Teaching</h2>
+          <p class="institution">National Technical University of Athens</p>
+          <ul class="teaching-list">
+            <li><span class="date">2025–2026</span><span>Teaching Assistant in “Foundations of Computer Science”</span></li>
+            <li><span class="date">2023–2025</span><span>Lab Assistant in “Programming Techniques”</span></li>
+            <li><span class="date">2019–2023</span><span>Lab Assistant in “Computer Programming”</span></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
   </main>
 
-  <footer>
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Sotiris Kanellopoulos</p>
-      <div><a href="mailto:sotkanel99@gmail.com">Email</a><a href="#top">Back to top ↑</a></div>
-    </div>
-  </footer>
+  <footer><div class="page-shell footer-inner">© <span id="year"></span> Sotiris Kanellopoulos</div></footer>
   <script src="script.js"></script>
 </body>
 </html>
