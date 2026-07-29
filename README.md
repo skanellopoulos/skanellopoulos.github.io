@@ -25,3 +25,7 @@ The website contains no phone number. The PDF is included only for the Download 
 ## Editing links
 
 Open `index.html` in any text editor. Search for `mailto:`, `arxiv.org`, or conference links to update them.
+
+
+## Current version
+This version lists both NTUA and the Archimedes Research Unit as affiliations, omits the Awards and Languages & Programming sections, and uses the latest supplied CV PDF.
