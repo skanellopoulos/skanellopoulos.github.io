@@ -178,15 +178,37 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
   background: linear-gradient(180deg, #d94a4a, #c62828);
   border-color: #b51f1f;
 }
-
 .badge-thesis {
   background: linear-gradient(180deg, #e5b93f, #d39e1f);
   border-color: #bd8b18;
 }
-a.badge:hover, a.badge:focus { transform: translateY(-1px); filter: brightness(.97); box-shadow: 0 4px 9px rgba(17,24,39,.16); }
-span.badge { cursor: default; }
-.note { color: var(--muted); font-size: .82rem; font-style: italic; }
-.note-highlight { color: #1f4f85; font-size: .9rem; font-style: normal; font-weight: 700; background: #eef5ff; border: 1px solid #cfe0f6; border-radius: 999px; padding: 4px 10px; }
+a.badge:hover,
+a.badge:focus {
+  transform: translateY(-1px);
+  filter: brightness(.97);
+  box-shadow: 0 4px 9px rgba(17,24,39,.16);
+}
+
+span.badge {
+  cursor: default;
+}
+
+.note {
+  color: var(--muted);
+  font-size: .82rem;
+  font-style: italic;
+}
+
+.note-highlight {
+  color: #1f4f85;
+  font-size: .9rem;
+  font-style: normal;
+  font-weight: 700;
+  background: #eef5ff;
+  border: 1px solid #cfe0f6;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
 
 .side-column { min-width: 0; }
 .sidebar-section { margin-bottom: 26px; }
