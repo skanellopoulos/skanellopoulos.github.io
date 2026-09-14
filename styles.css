@@ -174,6 +174,15 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
   background: linear-gradient(180deg, #1673d1, #075bb8);
   border-color: #0752a6;
 }
+.badge-journal {
+  background: linear-gradient(180deg, #d94a4a, #c62828);
+  border-color: #b51f1f;
+}
+
+.badge-thesis {
+  background: linear-gradient(180deg, #e5b93f, #d39e1f);
+  border-color: #bd8b18;
+}
 a.badge:hover, a.badge:focus { transform: translateY(-1px); filter: brightness(.97); box-shadow: 0 4px 9px rgba(17,24,39,.16); }
 span.badge { cursor: default; }
 .note { color: var(--muted); font-size: .82rem; font-style: italic; }
