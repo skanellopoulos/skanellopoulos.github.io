@@ -276,3 +276,17 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .84r
   padding-bottom: 0;
   border-bottom: 0;
 }
+
+/* Announcement box */
+.announcement-box {
+  border: 2px solid #d4a72c;
+  border-radius: 10px;
+  background: transparent;
+  padding: 18px 20px;
+}
+.announcement-box h2 {
+  margin: 0 0 8px;
+  color: #946b0a;
+  font-size: 1.1rem;
+}
+.announcement-box p { margin: 0; }
