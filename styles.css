@@ -113,6 +113,8 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
   border-radius: 8px;
   background: rgba(255,255,255,.82);
   break-inside: avoid;
+  display: flex;
+  align-items: center;
   font-size: .91rem;
 }
 .research-topics li::before {
