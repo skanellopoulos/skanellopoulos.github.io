@@ -143,7 +143,7 @@ h1 { margin: 0; font-size: clamp(1.7rem, 2.5vw, 2.35rem); line-height: 1.08; let
 .interest-card h2 { margin: 0 0 12px; color: white; font-size: 1.22rem; letter-spacing: -.015em; }
 .interest-card p { margin: 0; color: rgba(255,255,255,.9); line-height: 1.65; }
 
-.content-grid { display: grid; grid-template-columns: minmax(0,1.85fr) minmax(340px,.95fr); gap: 76px; align-items: start; padding-bottom: 54px; }
+.content-grid { display: grid; grid-template-columns: minmax(0,1.4fr) minmax(340px,1fr); gap: 76px; align-items: start; padding-bottom: 54px; }
 .section-heading { margin: 0 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line); color: var(--navy); font-size: 1.35rem; letter-spacing: -.02em; }
 
 .publication-list { margin: 0; padding-left: 28px; }
